@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="fmtlib\format.cc">
+      <Filter>Utility\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="fmtlib\posix.cc">
+      <Filter>Utility\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="json11.cpp">
+      <Filter>Utility\json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="IOEngine">
+      <UniqueIdentifier>{d0d31a09-f8ce-499b-b590-e5e8bb7f213a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{ba13088d-451a-4004-83dd-717c42496e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\fmt">
+      <UniqueIdentifier>{7ec4a97e-857b-4a3e-9eb3-50d6f90e3aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\json">
+      <UniqueIdentifier>{e4942caa-6ed7-4341-b54f-22d5569aef51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\log">
+      <UniqueIdentifier>{7bf457e8-2031-437a-b41b-1b4aa192a349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{e6eeeb47-eb9a-46b2-952c-7122fbf6e8bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="io_engine.hpp">
+      <Filter>IOEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="job_helper.hpp">
+      <Filter>IOEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer_helper.hpp">
+      <Filter>IOEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="net_tcp_server.hpp">
+      <Filter>IOEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="net_tcp_session.hpp">
+      <Filter>IOEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="net_udp_session.hpp">
+      <Filter>IOEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="net_udp_server.hpp">
+      <Filter>IOEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_pool.hpp">
+      <Filter>IOEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_helper.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtlib\core.h">
+      <Filter>Utility\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtlib\format.h">
+      <Filter>Utility\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtlib\format-inl.h">
+      <Filter>Utility\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtlib\ostream.h">
+      <Filter>Utility\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtlib\posix.h">
+      <Filter>Utility\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtlib\printf.h">
+      <Filter>Utility\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtlib\ranges.h">
+      <Filter>Utility\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtlib\time.h">
+      <Filter>Utility\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="json11.hpp">
+      <Filter>Utility\json</Filter>
+    </ClInclude>
+    <ClInclude Include="console_log_writer.hpp">
+      <Filter>Utility\log</Filter>
+    </ClInclude>
+    <ClInclude Include="log.hpp">
+      <Filter>Utility\log</Filter>
+    </ClInclude>
+    <ClInclude Include="object.hpp">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_helper.hpp">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="behavior.hpp">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="cell.hpp">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="file_log_writer.hpp">
+      <Filter>Utility\log</Filter>
+    </ClInclude>
+    <ClInclude Include="log_helper.hpp">
+      <Filter>Utility\log</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
